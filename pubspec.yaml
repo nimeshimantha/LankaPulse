@@ -1,0 +1,41 @@
+name: lanka_pulse
+description: "LankaPulse - Multi-Utility Super-App for Sri Lanka"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_bloc: ^8.1.3
+  go_router: ^13.2.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.15.5
+  firebase_auth: ^4.17.5
+  firebase_storage: ^11.6.7
+  firebase_messaging: ^14.7.16
+  flutter_local_notifications: ^17.0.0
+  url_launcher: ^6.2.5
+  equatable: ^2.0.5
+  intl: ^0.19.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
